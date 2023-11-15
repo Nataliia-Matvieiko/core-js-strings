@@ -320,12 +320,12 @@ describe('strings-tasks optimal implementation', () => {
 
     if (!fnStr.includes('return')) {
       this.skip();
-    }   
+    }
 
     assert.equal(
       fnStr.includes('concat'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -337,7 +337,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('charAt'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -353,7 +353,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('trim'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -369,7 +369,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('trimStart'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -385,7 +385,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('trimEnd'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -401,7 +401,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('repeat'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -413,7 +413,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('indexOf'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -425,7 +425,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('lastIndexOf'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -437,7 +437,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('charCodeAt'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -453,7 +453,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('endsWith'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -469,7 +469,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('startsWith'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -481,7 +481,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('padStart'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -493,7 +493,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('includes'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -505,7 +505,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('toLowerCase') && fnStr.includes('toUpperCase'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
@@ -517,7 +517,7 @@ describe('strings-tasks optimal implementation', () => {
     assert.equal(
       fnStr.includes('split'),
       true,
-      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String'
+      'You need to use a different method, look for the appropriate method in the documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
     );
   });
 
